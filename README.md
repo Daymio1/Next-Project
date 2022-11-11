@@ -29,3 +29,10 @@ Only production bundles:
 ```
 $ yarn build
 ```
+
+# Tests
+Tests are coded and run using `Jest`. (https://jestjs.io/ / https://testing-library.com/)
+To run tests, run the following command:
+```
+$ yarn test
+```
