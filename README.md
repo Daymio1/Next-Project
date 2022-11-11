@@ -1,10 +1,10 @@
 ### Table of contents
 - [Setup](README.md#setup)
-- [Run](README.md)
-- [Build](README.md)
-- [Tests](README.md)
-- [Prettier](README.md)
-- [Update dependencies](README.md)
+- [Run](README.md#run)
+- [Build](README.md#build)
+- [Tests](README.md#tests)
+- [Prettier](README.md#prettier)
+- [Update dependencies](README.md#update dependencies)
 
 ### Setup
 We use yarn to manage the dependencies of the project:
