@@ -4,7 +4,7 @@
 - [Build](README.md#build)
 - [Tests](README.md#tests)
 - [Prettier](README.md#prettier)
-- [Update dependencies](README.md#updatedependencies)
+- [Update dependencies](README.md#update-dependencies)
 
 ### Setup
 We use yarn to manage the dependencies of the project:
