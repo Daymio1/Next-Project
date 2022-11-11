@@ -9,5 +9,5 @@
 ### Setup
 We use yarn to manage the dependencies of the project:
 ```
-[1] $ yarn
+$ yarn
 ```
