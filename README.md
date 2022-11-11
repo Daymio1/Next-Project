@@ -30,10 +30,18 @@ Only production bundles:
 $ yarn build
 ```
 
-# Tests
+### Tests
 Tests are coded and run using `Jest`. (https://jestjs.io/ / https://testing-library.com/)
 
 To run tests, run the following command:
 ```
 $ yarn test
+```
+
+### Linting
+`ESLint` is used as linting tool.
+
+To run the lint run:
+```
+$ yarn lint
 ```
