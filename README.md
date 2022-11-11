@@ -19,3 +19,13 @@ Details about auth0 env variables needed (without the exact values) see examples
 ```
 $ yarn start
 ```
+
+### Build
+To build the solution, run the following command:
+```
+$ yarn build
+```
+Only production bundles:
+```
+$ yarn build
+```
