@@ -6,5 +6,5 @@
 - [Prettier](README.md)
 - [Update dependencies](README.md)
 
-###Setup
+### Setup
 We use yarn to manage the dependencies of the project:
