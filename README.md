@@ -1,4 +1,4 @@
-#LITTLEPAY MERCHANT PORTAL
+# LITTLEPAY MERCHANT PORTAL
 
 Littlepay is the world's only payment processor specializing in the transit and mobility sector. Public transit and mobility providers of all sizes use Littlepay's software and APIs to accept contactless and mobile payments.
 
