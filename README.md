@@ -1,5 +1,5 @@
 ### Table of contents
-- [Setup](README.md)
+- [Setup](README.md#setup)
 - [Run](README.md)
 - [Build](README.md)
 - [Tests](README.md)
