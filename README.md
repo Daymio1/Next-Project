@@ -63,3 +63,9 @@ To check if all the code is well-formated:
 ```
 $ yarn prettier:diff
 ```
+
+### Update dependencies
+In order to support upgrading dependencies, we recommend to use:
+```
+$ yarn upgrade-interactive --latest
+```
