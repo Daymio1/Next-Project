@@ -7,5 +7,5 @@
 - [Update dependencies](README.md)
 
 ### Setup
-We use yarn to manage the dependencies of the project:
+We use yarn to manage the dependencies of the project: /n
 `$ yarn`
