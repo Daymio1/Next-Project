@@ -14,3 +14,8 @@ $ yarn
 
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: https://github.com/auth0/nextjs-auth0
+
+### Run
+```
+$ yarn start
+```
