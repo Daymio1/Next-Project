@@ -48,6 +48,7 @@ $ yarn lint
 
 ### Automation tests
 Tests are coded and run using `Cypress`. (https://www.cypress.io/)
+
 To run tests, run the following command:
 ```
 $ yarn cy:run
@@ -55,6 +56,7 @@ $ yarn cy:run
 
 ### Prettier
 Use `prettier` to format the code.
+
 To format all code, run:
 ```
 $ yarn prettier
