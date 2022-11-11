@@ -8,4 +8,4 @@
 
 ### Setup
 We use yarn to manage the dependencies of the project:
-'$ yarn'
+`$ yarn`
