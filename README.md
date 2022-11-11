@@ -11,3 +11,6 @@ We use yarn to manage the dependencies of the project:
 ```
 $ yarn
 ```
+
+### Configuration
+Details about auth0 env variables needed (without the exact values) see examples here: [a](https://github.com/auth0-nextjs-samples/Sample-01 at main - auth0-samples/auth0-nextjs-samples)
