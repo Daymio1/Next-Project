@@ -26,7 +26,7 @@ Littlepay is the world's only payment processor specializing in the transit and 
 First step is to install Node.js on your system: https://nodejs.org/en/
 
 After you have Node.js installed on your system install Yarn through the npm package manager:
->
+> 1
 ```
 $ npm install --global yarn
 ```
