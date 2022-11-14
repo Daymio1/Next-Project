@@ -115,17 +115,11 @@ $ yarn e2e:ci
 
 _CI refers to "Continous Integration" and is just referring to a build pipeline._
 
-#### Details about the env variables required to run tests (without the exact values) read the documentation: https://docs.cypress.io/guides/guides/environment-variables#Option-1-configuration-file
-
-- Example of .env variables:
+- .env variables required to run automation tests:
 ```JavaScript
-export default defineConfig({
-  env: {
-    auth0_username: process.env.AUTH0_USERNAME,
-    auth0_password: process.env.AUTH0_PASSWORD,
-    auth0_issuer_base_url: process.env.AUTH0_ISSUER_BASE_URL,
-  },
-});
+AUTH0_USERNAME
+AUTH0_PASSWORD
+AUTH0_ISSUER_BASE_URL
 ```
 
 ### Update dependencies
@@ -148,10 +142,10 @@ $ docker build <path-to-dockerfile>
 ```
 
 - .env variables required to build the docker image:
-```Dockerfile
-ARG AUTH0_SECRET
-ARG AUTH0_BASE_URL
-ARG AUTH0_ISSUER_BASE_URL
-ARG AUTH0_CLIENT_ID
-ARG AUTH0_CLIENT_SECRET
+```JavaScript
+AUTH0_SECRET
+AUTH0_BASE_URL
+AUTH0_ISSUER_BASE_URL
+AUTH0_CLIENT_ID
+AUTH0_CLIENT_SECRET
 ```
