@@ -15,6 +15,14 @@ Littlepay is the world's only payment processor specializing in the transit and 
 - [Docker](README.md#docker)
 
 ### Setup
+
+The project uses the following tooling versions:
+- **Node**: `16.10.0`
+- **Typescript**: `4.8.3`
+- **NextJs**: `12.3.1`
+- **ReactJs**: `18.2.0`
+- **TailwindCSS**: `3.1.8`
+
 First step is to install Node.js on your system: https://nodejs.org/en/
 
 After you have Node.js installed on your system install Yarn through the npm package manager:
@@ -26,14 +34,6 @@ We use yarn to manage the dependencies of the project:
 ```
 $ yarn
 ```
-
-The project uses the following tooling versions:
-- **Node**: `16.10.0`
-- **Typescript**: `4.8.3`
-- **NextJs**: `12.3.1`
-- **ReactJs**: `18.2.0`
-- **TailwindCSS**: `3.1.8`
-
 
 #### **_Husky_**
 Husky is used to lint the commit messages, run tests, lint code when you commit or push.
