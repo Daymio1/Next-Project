@@ -17,8 +17,10 @@ Littlepay is the world's only payment processor specializing in the transit and 
 - [Tests](README.md#tests)
 - [Prettier](README.md#prettier)
 - [Update dependencies](README.md#update-dependencies)
-- [Storybook](README.ms#storybook)
-- [Docker](README.ms#docker)
+- [Storybook](README.md#storybook)
+- [Docker](README.md#docker)
+- [Husky](README.md#husky)
+- [I18Next](README.md#i18next)
 
 ### Setup
 After you have Node.js installed on your system install Yarn through the npm package manager:
@@ -100,3 +102,13 @@ $ yarn storybook
 ```
 
 ### Docker
+
+### Husky
+Husky is used to lint the commit messages, run tests, lint code when you commit or push.
+
+Documentation: https://typicode.github.io/husky/#/
+
+### I18Next
+I18Next is an internationalization-framework.
+
+Documentation: https://www.i18next.com/
