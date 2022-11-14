@@ -4,6 +4,8 @@ Littlepay is the world's only payment processor specializing in the transit and 
 
 ## Node: 16.10.0
 
+## Typescript: 4.8.3
+
 ## NextJs: 12.3.1
 
 ## ReactJs: 18.2.0
