@@ -35,12 +35,6 @@ $ yarn
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
 
-Use the following credentials to login into the project:
-
-Username:
-
-Password:
-
 ### Run
 To run the project, use the following command:
 ```
