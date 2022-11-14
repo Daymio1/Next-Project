@@ -109,6 +109,6 @@ Husky is used to lint the commit messages, run tests, lint code when you commit 
 Documentation: https://typicode.github.io/husky/#/
 
 ### I18Next
-I18Next is an internationalization-framework.
+I18Next is an internationalization-framework. It provides a complete solution to localize your product from web to mobile and desktop.
 
 Documentation: https://www.i18next.com/
