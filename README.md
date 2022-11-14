@@ -2,7 +2,7 @@
 
 Littlepay is the world's only payment processor specializing in the transit and mobility sector. Public transit and mobility providers of all sizes use Littlepay's software and APIs to accept contactless and mobile payments.
 
-## Node: 16.10.0
+## Node: 16.10.0 https://nodejs.org/en/
 
 ## NextJs: 12.3.1
 
@@ -19,6 +19,10 @@ Littlepay is the world's only payment processor specializing in the transit and 
 - [Update dependencies](README.md#update-dependencies)
 
 ### Setup
+After you have Node.js installed on your system install Yarn through the npm package manager:
+```
+$ npm install --global yarn
+```
 We use yarn to manage the dependencies of the project:
 ```
 $ yarn
