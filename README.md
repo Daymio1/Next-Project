@@ -34,12 +34,12 @@ The project uses the following tooling versions:
 - **TailwindCSS**: `3.1.8`
 
 
-#### _Husky_
+#### - _Husky_
 Husky is used to lint the commit messages, run tests, lint code when you commit or push.
 
 Documentation: https://typicode.github.io/husky/#/
 
-#### _I18Next_
+#### - _I18Next_
 I18Next is an internationalization-framework. It provides a complete solution to localize your product from web to mobile and desktop.
 
 Documentation: https://www.i18next.com/
