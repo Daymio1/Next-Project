@@ -47,7 +47,22 @@ Documentation: https://www.i18next.com/
 
 
 ### Configuration
-Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
+
+- .env variables required for Auth0:
+```JavaScript
+// A long, secret value used to encrypt the session cookie
+AUTH0_SECRET='LONG_RANDOM_VALUE' 
+// The base url of your application
+AUTH0_BASE_URL='http://localhost:3000'
+// The url of your Auth0 tenant domain
+AUTH0_ISSUER_BASE_URL='https://YOUR_AUTH0_DOMAIN.auth0.com'
+// Your Auth0 application's Client ID
+AUTH0_CLIENT_ID='YOUR_AUTH0_CLIENT_ID'
+// Your Auth0 application's Client Secret
+AUTH0_CLIENT_SECRET='YOUR_AUTH0_CLIENT_SECRET'
+```
+
+For more details about auth0 env variables needed see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
 
 ### Build
 To build the application for production usage, run the following command:
