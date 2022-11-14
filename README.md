@@ -118,7 +118,7 @@ _CI refers to "Continous Integration" and is just referring to a build pipeline.
 #### Details about the env variables required to run tests (without the exact values) read the documentation: https://docs.cypress.io/guides/guides/environment-variables#Option-1-configuration-file
 
 - Example of .env variables:
-```JavaScipt
+```JavaScript
 export default defineConfig({
   env: {
     auth0_username: process.env.AUTH0_USERNAME,
