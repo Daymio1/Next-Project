@@ -4,15 +4,15 @@ Littlepay is the world's only payment processor specializing in the transit and 
 
 ### Table of contents
 - [Setup](README.md#setup)
-- [Run](README.md#run)
 - [Build](README.md#build)
-- [Tests](README.md#tests)
+- [Run](README.md#run)
 - [Prettier](README.md#prettier)
+- [Linting](README.md#linting)
+- [Unit tests](README.md#unit-tests)
+- [Automation tests](README.md#automation-tests)
 - [Update dependencies](README.md#update-dependencies)
 - [Storybook](README.md#storybook)
 - [Docker](README.md#docker)
-- [Husky](README.md#husky)
-- [I18Next](README.md#i18next)
 
 ### Setup
 First step is to install Node.js on your system: https://nodejs.org/en/
@@ -33,43 +33,26 @@ The project uses the following tooling versions:
 - ReactJs: `18.2.0`
 - TailwindCSS: `3.1.8`
 
+#### a
+
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
 
-### Run
-To run the project, use the following command:
-```
-$ yarn start
-```
-
 ### Build
-To build the solution, run the following command:
+To build the application for production usage, run the following command:
 ```
 $ yarn build
 ```
 
-### Tests
-Tests are coded and run using `Jest`. (https://jestjs.io/ / https://testing-library.com/)
-
-To run tests, run the following command:
+### Run
+To start a Next.js production server, run the following command:
 ```
-$ yarn test
+$ yarn start
 ```
 
-### Linting
-`ESLint` is used as linting tool.
-
-To run the lint run:
+To start the application in development mode, run the following command:
 ```
-$ yarn lint
-```
-
-### Automation tests
-Tests are coded and run using `Cypress`. (https://www.cypress.io/)
-
-To run tests, run the following command:
-```
-$ yarn cy:run
+$ yarn dev
 ```
 
 ### Prettier
@@ -82,6 +65,30 @@ $ yarn prettier
 To check if all the code is well-formated:
 ```
 $ yarn prettier:diff
+```
+
+### Linting
+`ESLint` is used as linting tool.
+
+To run the lint use:
+```
+$ yarn lint
+```
+
+### Unit Tests
+Unit tests are coded and run using `Jest`. (https://jestjs.io/ / https://testing-library.com/)
+
+To run tests, run the following command:
+```
+$ yarn test
+```
+
+### Automation tests
+Automation tests are coded and run using `Cypress`. (https://www.cypress.io/)
+
+To run tests, run the following command:
+```
+$ yarn cy:run
 ```
 
 ### Update dependencies
@@ -97,13 +104,3 @@ $ yarn storybook
 ```
 
 ### Docker
-
-### Husky
-Husky is used to lint the commit messages, run tests, lint code when you commit or push.
-
-Documentation: https://typicode.github.io/husky/#/
-
-### I18Next
-I18Next is an internationalization-framework. It provides a complete solution to localize your product from web to mobile and desktop.
-
-Documentation: https://www.i18next.com/
