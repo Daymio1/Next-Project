@@ -96,6 +96,11 @@ $ yarn test
 ### Automation tests
 Automation tests are coded and run using `Cypress`. (https://www.cypress.io/)
 
+To open Cypress, run the following command:
+```
+$ yarn cy
+```
+
 To run tests, run the following command:
 ```
 $ yarn cy:run
