@@ -21,6 +21,7 @@ After you have Node.js installed on your system install Yarn through the npm pac
 ```
 $ npm install --global yarn
 ```
+
 We use yarn to manage the dependencies of the project:
 ```
 $ yarn
@@ -72,6 +73,7 @@ To format all code, run:
 ```
 $ yarn prettier
 ```
+
 To check if all the code is well-formated:
 ```
 $ yarn prettier:diff
@@ -101,10 +103,17 @@ To open Cypress, run the following command:
 $ yarn cy
 ```
 
-To run tests, run the following command:
+To run tests, run the application then run the following command:
 ```
 $ yarn cy:run
 ```
+
+[^note]To run the application and the test runner in CI (headless), run the following command:
+```
+$ yarn e2e:ci
+```
+
+[^note] CI refers to "Continous Integration" and is just referring to a build pipeline
 
 ### Update dependencies
 In order to support upgrading dependencies, we recommend to use:
