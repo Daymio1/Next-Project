@@ -27,13 +27,21 @@ $ yarn
 ```
 
 The project uses the following tooling versions:
-- Node: `16.10.0`
-- Typescript: `4.8.3`
-- NextJs: `12.3.1`
-- ReactJs: `18.2.0`
-- TailwindCSS: `3.1.8`
+- **Node**: `16.10.0`
+- **Typescript**: `4.8.3`
+- **NextJs**: `12.3.1`
+- **ReactJs**: `18.2.0`
+- **TailwindCSS**: `3.1.8`
 
-#### a
+#### Husky
+Husky is used to lint the commit messages, run tests, lint code when you commit or push.
+
+Documentation: https://typicode.github.io/husky/#/
+
+#### I18Next
+I18Next is an internationalization-framework. It provides a complete solution to localize your product from web to mobile and desktop.
+
+Documentation: https://www.i18next.com/
 
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
