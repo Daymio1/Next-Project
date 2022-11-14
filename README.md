@@ -17,6 +17,8 @@ Littlepay is the world's only payment processor specializing in the transit and 
 - [Tests](README.md#tests)
 - [Prettier](README.md#prettier)
 - [Update dependencies](README.md#update-dependencies)
+- [Storybook](README.ms#storybook)
+- [Docker](README.ms#docker)
 
 ### Setup
 After you have Node.js installed on your system install Yarn through the npm package manager:
@@ -31,7 +33,14 @@ $ yarn
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
 
+Use the following credentials to login into the project:
+
+Username:
+
+Password:
+
 ### Run
+To run the project, use the following command:
 ```
 $ yarn start
 ```
@@ -83,3 +92,11 @@ In order to support upgrading dependencies, we recommend to use:
 ```
 $ yarn upgrade-interactive --latest
 ```
+
+### Storybook
+To individually test each component of the project, run the following command:
+```
+$ yarn storybook
+```
+
+### Docker
