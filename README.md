@@ -26,7 +26,7 @@ We use yarn to manage the dependencies of the project:
 $ yarn
 ```
 
-The project uses the following tools:
+The project uses the following tooling versions:
 - Node: `16.10.0`
 - Typescript: `4.8.3`
 - NextJs: `12.3.1`
