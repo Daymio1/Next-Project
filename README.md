@@ -2,16 +2,6 @@
 
 Littlepay is the world's only payment processor specializing in the transit and mobility sector. Public transit and mobility providers of all sizes use Littlepay's software and APIs to accept contactless and mobile payments.
 
-## Node: 16.10.0
-
-## Typescript: 4.8.3
-
-## NextJs: 12.3.1
-
-## ReactJs: 18.2.0
-
-## TailwindCSS: 3.1.8
-
 ### Table of contents
 - [Setup](README.md#setup)
 - [Run](README.md#run)
@@ -35,6 +25,13 @@ We use yarn to manage the dependencies of the project:
 ```
 $ yarn
 ```
+
+The project uses the following tools:
+- Node: 16.10.0
+- Typescript: 4.8.3
+- NextJs: 12.3.1
+- ReactJs: 18.2.0
+- TailwindCSS: 3.1.8
 
 ### Configuration
 Details about auth0 env variables needed (without the exact values) see examples here: [https://github.com/auth0/nextjs-auth0](https://github.com/auth0/nextjs-auth0#readme)
